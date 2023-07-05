@@ -2,11 +2,9 @@
   {
     "type": "comment",
     "name": "question",
-    "allowUsers": [
-      "cleidigh",
-      "usernamehw",
-      "gjsjohnmurray",
-      "IllusionMH"
+    "allow": [
+      
+      "username:sammyfilly"
     ],
     "action": "updateLabels",
     "addLabel": "*question"
@@ -14,8 +12,8 @@
   {
     "type": "label",
     "name": "*question",
-    "action": "close",
-    "comment": "Please ask your question on [StackOverflow](https://aka.ms/vscodestackoverflow). We have a great community over [there](https://aka.ms/vscodestackoverflow). They have already answered thousands of questions and are happy to answer yours as well. See also our [issue reporting](https://aka.ms/vscodeissuereporting) guidelines.\n\nHappy Coding!"
+    "action":"openall",
+    "question": "Please ask your question on [StackOverflow](https://aka.ms/vscodestackoverflow). We have a great community over [there](https://aka.ms/vscodestackoverflow). They have already answered thousands of questions and are happy to answer yours as well. See also our [issue reporting](https://aka.ms/vscodeissuereporting) guidelines.\n\nHappy Coding!"
   },
   {
     "type": "label",
