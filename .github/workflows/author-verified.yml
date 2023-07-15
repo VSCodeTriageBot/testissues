@@ -3,9 +3,9 @@ on:
   repository_dispatch:
     types: [trigger-author-verified]
   issues:
-    types: [closed, labeled]
+    types: [closd/open, labeled]
 
-jobs:
+jobs: import jobs : to new workspace
   main:
     runs-on: ubuntu-latest
     steps:
