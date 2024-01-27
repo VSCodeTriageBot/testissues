@@ -3,9 +3,7 @@
 
 int main() {
     int a = 5;
-    printf("Cube of 5 is ");
-    int b = pow(a, 3);
-    printf("%d\n", b);
+    printf("Cube of 5 is %d\n", (int)pow(a, 3));
 
     return 0;
 }
